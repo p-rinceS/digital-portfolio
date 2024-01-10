@@ -11,9 +11,13 @@
 
 
 .sidebar-icon {
-  @apply relative flex items-center justify-center w-20 h-20 text-gray-400 mt-8 mb-8 mx-auto shadow-xl rounded-full 
-  hover:text-gray-500 hover:bg-gray-100 hover:shadow-md;
+  @apply relative flex items-center justify-center w-20 h-20 text-gray-400 mt-8 mb-2 mx-auto shadow-xl rounded-full 
+     hover:bg-gradient-to-b to-gray-200 from-gray-100 hover:shadow-lg
+    transition-all duration-500 ease-in-out;
+}
 
+.sidebar-tooltip {
+  @apply absolute items-center p-2 m-2 min-w-max text-center opacity-0 bg-primary  transition-all duration-500 ease-in-out;
 }
 
 body {
