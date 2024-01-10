@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from './images/princeLogo.png'
+import Logo from './components/Logo'
 import SideBar from './components/SideBar'
 
 
@@ -12,9 +12,11 @@ export default function Home() {
 <meta name= "description"></meta>
     </head>
  
-    <main className =''>
+    <main> 
+    
     <SideBar />
-   
+    <Logo />
+
     </main>
 
     </div>
