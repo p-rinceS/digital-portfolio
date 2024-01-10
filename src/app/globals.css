@@ -9,13 +9,13 @@
 }
 
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.sidebar-icon {
+  @apply relative flex items-center justify-center w-20 h-20 text-gray-400 mt-8 mb-8 mx-auto shadow-xl rounded-full 
+  hover:text-gray-500 hover:bg-gray-100 hover:shadow-md;
+
 }
 
+body {
+  @apply bg-gray-100;
+}
