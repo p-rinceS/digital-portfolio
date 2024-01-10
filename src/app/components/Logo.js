@@ -1,7 +1,7 @@
 const Logo = ()  => {
     return (
-        <div className="logo">
-            <img src = "./assets/images/princelogo.png" alt = "logo"></img>
+        <div className="logo w-5 h-5">
+            <img src = "./images/princeLogo.png" alt = "logo"></img>
         </div>
     )
 }

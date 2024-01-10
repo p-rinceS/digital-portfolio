@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import logo from './images/princeLogo.png'
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
  
     <main className='bg-gradient-to-b from-gray-800 to-gray-900 justify-normal'>
 
-    <header className='bg-gray-700 bg-opacity-15 sticky top-0 z-[20] mx-auto my-auto flex w-full items-center justify-between p-8 text-white'>Header</header>
+    <header className='bg-gray-700 bg-opacity-15 sticky top-0 z-[20] mx-auto my-auto flex w-full items-center justify-between p-8 text-white'>
+    <logo />
+    Header</header>
 
 
       <section className='min-h-screen'>
