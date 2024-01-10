@@ -8,8 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-
-
 .sidebar-icon {
   @apply relative flex items-center justify-center w-20 h-20 text-gray-400 mt-8 mb-2 mx-auto shadow-xl rounded-full 
      hover:bg-gradient-to-b to-gray-200 from-gray-100 hover:shadow-lg
