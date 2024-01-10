@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+
+
 const colors = require('tailwindcss/colors')
+const fontFamily = require('tailwindcss/defaultTheme').fontFamily
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,6 +15,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+      fontFamily: {
+        Lato: ['Lato', ...fontFamily.sans],
+      },
       colors: {
         primary: '#2e3047',
         secondary: '#5865f2',

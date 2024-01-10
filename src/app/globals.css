@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -10,7 +13,7 @@
 
 .sidebar-icon {
   @apply relative flex items-center justify-center w-20 h-20 text-gray-400 mt-8 mb-2 mx-auto shadow-xl rounded-full 
-     hover:bg-gradient-to-b to-gray-200 from-gray-100 hover:shadow-lg
+     hover:bg-slate-500 from-gray-100 hover:shadow-inner
     transition-all duration-500 ease-in-out;
 }
 
@@ -18,6 +21,14 @@
   @apply absolute items-center p-2 m-2 min-w-max text-center opacity-0 bg-primary  transition-all duration-500 ease-in-out;
 }
 
-body {
-  @apply bg-gray-100;
+h1{
+  @apply font-Lato font-light text-2xl; 
 }
+
+p{
+  @apply font-Lato font-light  py-5 ;
+}
+body {
+  @apply bg-indigo-300;
+}
+
