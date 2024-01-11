@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -12,8 +13,8 @@
 }
 
 .sidebar-icon {
-  @apply relative flex items-center justify-center w-20 h-20 text-gray-400 mt-8 mb-2 mx-auto shadow-xl rounded-full 
-     hover:bg-slate-500 from-gray-100 hover:shadow-inner
+  @apply relative flex items-center justify-center w-20 h-20 text-gray-400 mt-8 mb-2 mx-auto shadow-xl rounded-lg 
+     hover:bg-slate-500 from-gray-100 hover:shadow-inner hover:rounded-3xl
     transition-all duration-500 ease-in-out;
 }
 
@@ -21,11 +22,21 @@
   @apply absolute items-center p-2 m-2 min-w-max text-center opacity-0 bg-primary  transition-all duration-500 ease-in-out;
 }
 
+.techbar-tooltip {
+  @apply bg-opacity-0 absolute items-center justify-center min-h-max min-w-max text-center mt-20 opacity-0 bg-techbar  transition-all duration-300 font-extralight ease-in-out;
+}
+
+.techbar-icon {
+  @apply relative flex items-center justify-center  w-8 h-8 text-gray-400 mx-2 shadow-xl rounded-full 
+     hover:scale-125
+    transition-all duration-200 ease-linear;
+}
+
 h1{
   @apply font-Lato font-light text-2xl; 
 }
 
-p{
+p{ 
   @apply font-Lato font-light  py-5 ;
 }
 body {

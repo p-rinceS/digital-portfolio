@@ -5,7 +5,9 @@ const colors = require('tailwindcss/colors')
 const fontFamily = require('tailwindcss/defaultTheme').fontFamily
 
 module.exports = {
+  
   content: [
+    './src/app/components/Spotify.js',
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,6 +20,8 @@ module.exports = {
 
       fontFamily: {
         Lato: ['Lato', ...fontFamily.sans],
+        Poppins: ["Poppins", "sans-serif"],
+        Cabin: ["Cabin", "sans-serif"],
       },
       colors: {
         primary: '#2e3047',
@@ -34,6 +38,9 @@ module.exports = {
           100: '#434553',
 
         },
+        bordercolor: '#2e3a4d',
+        borderhover: '#4d607d',
+        techbar: '#12161c',
         glow: '#383a54'
       }
       }
