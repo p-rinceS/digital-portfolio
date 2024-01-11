@@ -14,7 +14,7 @@ const SideBar = () => {
         <a href="https://drive.google.com/file/d/12wdmYWjBfqxWN-XyPMK7HqMSSksF6ohO/view?usp=sharing" target="_blank">
           <SideBarIcon icon={<IoMdDocument size="40" />} text={"CV/Resume"} />
         </a>
-        <a href= "www.linkedin.com/in/psonani" target = "_blank">
+        <a href= "https://www.linkedin.com/in/psonani" target = "_blank">
         <SideBarIcon icon={<IoLogoLinkedin size="40" />} text={"LinkedIn"} />
         </a>
         <a href = "https://github.com/p-rinceS" target = "_blank">
