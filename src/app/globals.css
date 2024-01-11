@@ -32,6 +32,19 @@
     transition-all duration-200 ease-linear;
 }
 
+.github-link p{
+  @apply 
+     hover:text-borderhover
+    transition-all duration-200 ease-in-out;
+ }
+
+ .p6{
+  @apply 
+     hover:border-borderhover
+    transition-all duration-200 ease-in-out;
+ }
+ 
+
 h1{
   @apply font-Lato font-light text-2xl; 
 }
@@ -42,4 +55,5 @@ p{
 body {
   @apply bg-indigo-300;
 }
+
 

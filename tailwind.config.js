@@ -5,7 +5,13 @@ const colors = require('tailwindcss/colors')
 const fontFamily = require('tailwindcss/defaultTheme').fontFamily
 
 module.exports = {
-  
+  module: {
+    rules:[
+      {
+        test: /\.pdf$/,
+        use: 'file-loader?name=[path][name].[ext]',
+      },]
+  },
   content: [
     './src/app/components/Spotify.js',
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
