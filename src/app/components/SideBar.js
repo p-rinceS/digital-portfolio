@@ -9,7 +9,7 @@ const SideBar = () => {
 
   return (
     <div>
-      <div className={`fixed -top-0 -left-0 h-screen w-24 flex flex-col drop-shadow-lg text-gray-600 bg-gradient-to-b from-primary to-glow z-10 lg:block hidden`}>
+      <div className={`fixed -top-0 -left-0 h-screen w-24  flex-col drop-shadow-lg text-gray-600 bg-gradient-to-b from-primary to-glow z-10 lg:block hidden`}>
         {/* add icons as more stuff needs to be added */}
         <a href="https://drive.google.com/file/d/12wdmYWjBfqxWN-XyPMK7HqMSSksF6ohO/view?usp=sharing" target="_blank">
           <SideBarIcon icon={<IoMdDocument size="40" />} text={"CV/Resume"} />

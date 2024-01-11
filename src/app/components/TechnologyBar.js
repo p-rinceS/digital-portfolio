@@ -6,10 +6,12 @@ import { DiCss3 } from "react-icons/di";
 
 const TechnologyBar = () => {
     return (
-      <div className="py-2  flex flex-wrap drop-shadow-lg text-white bg-techbar rounded-lg  justify-center border-2 border-bordercolor hover:border-borderhover
-      transition-all duration-300 ease-in-out">
+      <div className=" items-center  h-24 flex flex-wrap drop-shadow-lg text-white bg-techbar rounded-lg  justify-center border-2 border-bordercolor hover:border-borderhover
+      transition-all duration-300 ease-in-out w-full  ">
         {/* add icons as more stuff needs to be added */}
-        <TechBarIcons icon={<IoLogoHtml5 size="29" />} text={"HTML"} />
+
+
+        <TechBarIcons icon={<IoLogoHtml5 size="42" />} text={"HTML"} />
         <TechBarIcons icon={<DiCss3 size="45" />} text={"CSS"} />
         <TechBarIcons icon={<SiCplusplus size="40" />} text={"C++"} />
         <TechBarIcons icon={<SiTailwindcss size="40" />} text={"Tailwind CSS"} />

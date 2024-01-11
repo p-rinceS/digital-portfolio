@@ -27,7 +27,7 @@
 }
 
 .techbar-icon {
-  @apply relative flex items-center justify-center  w-8 h-8 text-gray-400 mx-2 shadow-xl rounded-full 
+  @apply relative flex items-center justify-center  min-w-max h-8 text-gray-400 mx-2 shadow-xl rounded-full 
      hover:scale-125
     transition-all duration-200 ease-linear;
 }

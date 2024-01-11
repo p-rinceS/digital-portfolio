@@ -4,10 +4,10 @@ import ProjectTiles from "./ProjectTiles";
 
 const Bio = () => {
   return (
-    <div className="flex justify-center px-5">
-      <div className="flex-col justify-center">
+    <div className="flex flex-wrap justify-center px-5 w-full">
+      <div className="flex flex-col justify-center text-left">
         <h1 className="text-6xl  mt-20 mb-10 text-white">Hey, I'm Prince 👋</h1>
-        <p className=" justify-between max-w-3xl text-lg  text-white  flex ">
+        <p className="  max-w-3xl text-lg  text-white  overflow-hidden">
           I'm a junior software engineer from Chicago. I'm currently pursuing
           full-stack web development to create stunning user experiences on the
           front-end, and scalable and secure infrastructure on the backend.
@@ -16,7 +16,7 @@ const Bio = () => {
         <h2 className=" text-xl font-semibold  mt-5  text-white">
           What I Do 💭
         </h2>
-        <p className=" justify-between max-w-3xl text-lg  text-white  flex ">
+        <p className="  max-w-3xl text-lg  text-white overflow-hidden">
           I have a deep passion for various aspects of technology, ranging from
           software design and development to unraveling the intricate workings
           of the internet. My interests extend to cybersecurity, programming,
