@@ -10,9 +10,9 @@ const ProjectTiles = () => {
       ></Tiles>
       <Tiles
       name= "digital-portfolio" 
-      description="🤖 created using react and javascript w/ tailwind css"
+      description="💼 created using react and javascript w/ tailwind css"
       language="🟡 JavaScript"
-      link= "https://github.com/p-rinceS/UIClassmate"
+      link= "https://github.com/p-rinceS/digital-portfolio"
       >
 
       </Tiles>
@@ -20,13 +20,13 @@ const ProjectTiles = () => {
     <div className="flex flex-row justify-evenly mt-2">
       <Tiles
       name= "baccarat game" 
-      description="🤖 created using java and javafx, fully functional baccarat casino game, bet amount and win big or go home empty-handed"
+      description="🃏 created using java and javafx, fully functional baccarat casino game, bet amount and win big or go home empty-handed"
       language="🟠 Java"
       link= "https://github.com/p-rinceS/UIClassmate"
       ></Tiles>
       <Tiles
       name= "word game" 
-      description="🤖 created using java and javafx (again), wordle-based game with java networking, client-server connection"
+      description="🔤created using java and javafx (again), wordle-based game with java networking, client-server connection"
       language="🟠 Java"
       link= "https://github.com/p-rinceS/UIClassmate"
       ></Tiles>
