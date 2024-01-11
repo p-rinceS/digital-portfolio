@@ -21,13 +21,13 @@ const ProjectTiles = () => {
             name="baccarat game"
             description="🃏 created using java and javafx, fully functional baccarat casino game, bet amount and win big or go home empty-handed"
             language="🟠 Java"
-            link="https://github.com/p-rinceS/UIClassmate"
+            link="https://github.com/p-rinceS/baccarat-game"
           ></Tiles>
           <Tiles
             name="word game"
             description="🔤created using java and javafx (again), wordle-based game with java networking, client-server connection"
             language="🟠 Java"
-            link="https://github.com/p-rinceS/UIClassmate"
+            link="https://github.com/p-rinceS/word-game"
           ></Tiles>
         </div>
       </div>
