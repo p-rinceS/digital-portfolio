@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap");
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -23,7 +23,7 @@
 }
 
 .techbar-tooltip {
-  @apply bg-opacity-0 absolute items-center justify-center min-h-max min-w-max text-center mt-20 opacity-0 bg-techbar  transition-all duration-300 font-extralight ease-in-out;
+  @apply bg-opacity-0 absolute items-center justify-center min-h-max min-w-max text-center mt-28 opacity-0 bg-techbar  transition-all duration-300 font-extralight ease-in-out;
 }
 
 .techbar-icon {
@@ -32,28 +32,28 @@
     transition-all duration-200 ease-linear;
 }
 
-.github-link p{
-  @apply 
-     hover:text-borderhover
+.github-link p {
+  @apply hover:text-borderhover
     transition-all duration-200 ease-in-out;
- }
-
- .p6{
-  @apply 
-     hover:border-borderhover
-    transition-all duration-200 ease-in-out;
- }
- 
-
-h1{
-  @apply font-Lato font-light text-2xl; 
 }
 
-p{ 
-  @apply font-Lato font-light  py-5 ;
+.p6 {
+  @apply hover:border-borderhover
+    transition-all duration-200 ease-in-out;
+}
+
+.main-page {
+  @apply scale-100
+    transition-all duration-200 ease-in-out;
+}
+
+h1 {
+  @apply font-Lato font-light text-2xl;
+}
+
+p {
+  @apply font-Lato font-light  py-5;
 }
 body {
-  @apply bg-indigo-300;
+  @apply bg-primary;
 }
-
-
