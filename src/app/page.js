@@ -1,4 +1,12 @@
+// Purpose: Main page for the portfolio, contains the sidebar, bio, and contact page
+
+/**
+* @jest-environment jsdom
+*/
+
+
 "use client";
+
 import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "./components/Logo";
