@@ -7,34 +7,34 @@ const Contact = () => {
   
   emailjs.init("YOUR_USER_ID");
 
-  useEffect(() => {
+
     // email sending code here
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm(
+          "service_nhtz2uk",
+          "template_lgwom5k",
+          form.current,
+          "fJLs4eqg6twg71Eof"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            console.log("email sent");
+            e.target.reset();
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
+
+  
  
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_nhtz2uk",
-        "template_lgwom5k",
-        form.current,
-        "fJLs4eqg6twg71Eof"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("email sent");
-          e.target.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-}, []);
-
   return (
-    <div className="mx-auto w-full max-w-[550px] justify-center flex-auto py-28">
+    <div className="mx-auto w-full max-w-[550px] justify-center flex-auto py-28" id= "contact">
       <div className=" flex justify-center flex-col">
         <form ref={form} onSubmit={sendEmail}>
           <div className=" flex flex-col">

@@ -1,6 +1,7 @@
 import TechnologyBar from "./TechnologyBar";
 import SpotifyBar from "./Spotify";
 import ProjectTiles from "./ProjectTiles";
+import Contact from "./Contact";
 
 
 
@@ -8,7 +9,7 @@ const Bio = () => {
   return (
    
     
-    <div className="flex flex-wrap justify-center px-5 w-full">
+    <div className="flex flex-wrap justify-center px-5 w-full" id="hero">
       <div className="flex flex-col justify-center text-left">
 
         <h1 className="text-6xl text-white flex flex-row mt-10">Hey, I'm Prince 👋
@@ -61,6 +62,9 @@ const Bio = () => {
           frameworks and libraries. Some of these projects are listed below.
         </p>
         <ProjectTiles />
+
+
+        <Contact />
 
       </div>
     </div>
