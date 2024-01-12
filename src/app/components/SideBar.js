@@ -15,7 +15,7 @@ const SideBar = () => {
       >
       
         {/* add icons as more stuff needs to be added */}
-        <a className = 'home-button' href="#">
+        <a className = 'home-button' href="/">
           <SideBarIcon icon={<IoMdHome size="40" />} text={"Home"} />
         </a>
 
@@ -33,7 +33,7 @@ const SideBar = () => {
           <SideBarIcon icon={<FaGithub size="40" />} text={"GitHub"} />
         </a>
       
-      <a className = 'contact-button' href="#contact">
+      <a className = 'contact-button' href="/contact">
         <SideBarIcon
           icon={<IoMailSharp size="40" />}
           text={"Contact Me"}

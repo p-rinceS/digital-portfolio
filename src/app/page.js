@@ -14,7 +14,7 @@ import SideBar from "./components/SideBar";
 import Bio from "./components/Bio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { HashRouter as Router, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 
 export default function Home() {
@@ -40,6 +40,7 @@ export default function Home() {
             <Route exact path="/contact" element={<Contact />}></Route>
           </Routes>
           </Router>
+          {/* <Bio /> */}
         </div>
         <Footer />
       </main>
