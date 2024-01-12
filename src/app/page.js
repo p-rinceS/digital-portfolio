@@ -29,7 +29,7 @@ export default function Home() {
         <Router>
           <Routes>
             <Route exact path="/" element={<Bio />}></Route>
-            <Route exact path="contact" element={<Contact />}></Route>
+            <Route exact path="/contact" element={<Contact />}></Route>
           </Routes>
           </Router>
         </div>

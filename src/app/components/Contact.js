@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import {useEffect} from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -6,7 +7,9 @@ const Contact = () => {
   
   emailjs.init("YOUR_USER_ID");
 
-
+  useEffect(() => {
+    // email sending code here
+ 
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -28,6 +31,7 @@ const Contact = () => {
         }
       );
   };
+}, []);
 
   return (
     <div className="mx-auto w-full max-w-[550px] justify-center flex-auto py-28">
