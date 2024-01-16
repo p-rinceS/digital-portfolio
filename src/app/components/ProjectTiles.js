@@ -21,7 +21,7 @@ const ProjectTiles = () => {
             name="baccarat game"
             description="🃏 created using java and javafx, fully functional baccarat casino game, bet amount and win big or go home empty-handed"
             language="🟠 Java"
-            link="https://github.com/p-rinceS/baccarat-game"
+            link="https://github.com/p-rinceS/baccarat"
           ></Tiles>
           <Tiles
             name="word game"

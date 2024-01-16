@@ -14,12 +14,12 @@
 
 .sidebar-icon {
   @apply relative flex items-center justify-center w-20 h-20 text-gray-400 mt-8 mb-2 mx-auto shadow-xl rounded-lg 
-     hover:bg-slate-500 from-gray-100 hover:shadow-inner hover:rounded-3xl
+     hover:border-2 hover:border-borderhover from-gray-100 hover:rounded-3xl
     transition-all duration-500 ease-in-out;
 }
 
 .sidebar-tooltip {
-  @apply absolute items-center p-2 m-2 min-w-max text-center opacity-0 bg-primary  transition-all duration-500 ease-in-out;
+  @apply absolute items-center p-2 m-2 min-w-max text-center opacity-0 bg-primary border-2 border-borderhover transition-all duration-500 ease-in-out;
 }
 
 .techbar-tooltip {

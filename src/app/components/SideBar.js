@@ -10,7 +10,8 @@ const SideBar = () => {
   return (
     <div>
       <div
-        className={`fixed -top-0 -left-0 h-screen w-24  flex-col drop-shadow-lg text-gray-600 bg-gradient-to-b from-primary to-glow z-10 lg:block hidden`}
+        className={`fixed -top-0 -left-0 h-screen w-24  flex-col drop-shadow-lg text-gray-600 bg-techbar z-10 lg:block hidden hover:border-r-2 hover:border-borderhover
+        transition-all duration-300 ease-in-out`}
       >
         {/* add icons as more stuff needs to be added */}
       
