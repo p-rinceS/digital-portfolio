@@ -11,7 +11,18 @@ const Contact = () => {
     // email sending code here
     const sendEmail = (e) => {
       e.preventDefault();
+
+        // Assuming form.current is a reference to your form element
+    const formElements = form.current.elements;
+
+  // Check if any form field is empty
+      const isFormEmpty = Array.from(formElements).some(element => element.value.trim() === '');
   
+      if (isFormEmpty) {
+        console.log('Please fill out all form fields.');
+        return;
+      }
+      
       emailjs
         .sendForm(
           "service_nhtz2uk",
