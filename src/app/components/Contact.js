@@ -16,13 +16,17 @@ const Contact = () => {
     const formElements = form.current.elements;
 
   // Check if any form field is empty
-      const isFormEmpty = Array.from(formElements).some(element => element.value.trim() === '');
+      const isFormEmpty = Array.from(formElements).some(element => {  
+        if (element.nodeName === 'INPUT' || element.nodeName === 'TEXTAREA') {
+        return element.value.trim() === '';
+      }
+      return false;});
   
       if (isFormEmpty) {
         console.log('Please fill out all form fields.');
         return;
       }
-      
+
       emailjs
         .sendForm(
           "service_nhtz2uk",

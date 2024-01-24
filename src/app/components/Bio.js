@@ -3,29 +3,24 @@ import SpotifyBar from "./Spotify";
 import ProjectTiles from "./ProjectTiles";
 import Contact from "./Contact";
 
-
-
 const Bio = () => {
   return (
-   
-    
     <div className="flex flex-wrap justify-center px-5 w-full" id="hero">
       <div className="flex flex-col justify-center text-left">
+        <div class="flex items-center mt-14 gap-5">
+        <h1 className="text-6xl text-white">Hey I'm Prince 👋</h1>
 
-        <h1 className="text-6xl text-white flex flex-row mt-10">Hey, I'm Prince 👋
-        
-        <div className=" flex justify-end flex-wrap scroll-py-72 min-w-max">
-      <img class="flex flex-wrap w-52 h-52 object-cover rounded-full border-4 drop-shadow-lg border-bordercolor hover:border-borderhover
-      transition-all duration-300 ease-in-out
-      " src="https://media.licdn.com/dms/image/D4E03AQEXaz2Z0PTrUg/profile-displayphoto-shrink_800_800/0/1634567854317?e=1710374400&v=beta&t=YN8wrP48IiJ5C3rn7se1PlMVQ6s_DyP6_hNaYIXuVpY">
-</img>
-</div> </h1>
+          <img
+            class="flex-wrap w-32 h-32 object-cover rounded-full border-4 drop-shadow-lg border-bordercolor hover:border-borderhover
+    transition-all duration-300 ease-in-out hover:scale-110"
+            src="https://media.licdn.com/dms/image/D4E03AQEXaz2Z0PTrUg/profile-displayphoto-shrink_800_800/0/1634567854317?e=1710374400&v=beta&t=YN8wrP48IiJ5C3rn7se1PlMVQ6s_DyP6_hNaYIXuVpY"
+          />
+        </div>{" "}
         <p className="  max-w-3xl text-lg  text-white  overflow-hidden">
           I'm a junior software engineer from Chicago. I'm currently pursuing
           full-stack web development to create stunning user experiences on the
           front-end, and scalable and secure infrastructure on the backend.
         </p>
-
         <h2 className=" text-xl font-semibold  mt-5  text-white">
           What I Do 💭
         </h2>
@@ -37,11 +32,9 @@ const Bio = () => {
           comprehend the inner workings and underlying principles that govern
           the technology shaping our world.
         </p>
-
         <h2 className=" text-xl font-semibold  mt-5  text-white">
           Technologies 💻
         </h2>
-
         <p className=" justify-between max-w-3xl text-lg  text-white  flex ">
           I have a deep passion for various aspects of technology, ranging from
           software design and development to unraveling the intricate workings
@@ -50,22 +43,18 @@ const Bio = () => {
           comprehend the inner workings and underlying principles that govern
           the technology shaping our world.
         </p>
-
         <TechnologyBar />
         <h2 className=" text-xl font-semibold  mt-10  text-white">
           Projects 🛠️
         </h2>
-
         <p className=" justify-between max-w-3xl text-lg  text-white  flex ">
-          In my free time, I enjoy creating projects to post on GitHub, so I
-          can learn from others and share what I know. I am often working on learning
-          frameworks and libraries. Some of these projects are listed below.
+          In my free time, I enjoy creating projects to post on GitHub, so I can
+          learn from others and share what I know. I am often working on
+          learning frameworks and libraries. Some of these projects are listed
+          below.
         </p>
         <ProjectTiles />
-
-
         <Contact />
-
       </div>
     </div>
   );
