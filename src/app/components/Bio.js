@@ -13,7 +13,7 @@ const Bio = () => {
           <img
             class="flex-wrap w-32 h-32 object-cover rounded-full border-4 drop-shadow-lg border-bordercolor hover:border-borderhover
     transition-all duration-300 ease-in-out hover:scale-110"
-            src="https://media.licdn.com/dms/image/D4E03AQEXaz2Z0PTrUg/profile-displayphoto-shrink_800_800/0/1634567854317?e=1710374400&v=beta&t=YN8wrP48IiJ5C3rn7se1PlMVQ6s_DyP6_hNaYIXuVpY"
+            src="https://cdn.discordapp.com/attachments/952328323768410143/1210742757723738172/Prince3.png?ex=65ebab0f&is=65d9360f&hm=ad975403dbd57f30624a397a38921408e80da1c2403406a818a6d4aaf7ea8b6c&"
           />
         </div>{" "}
         <p className="  max-w-3xl text-lg  text-white  overflow-hidden">
