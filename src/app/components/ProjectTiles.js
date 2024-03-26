@@ -30,6 +30,14 @@ const ProjectTiles = () => {
             link="https://github.com/p-rinceS/word-game"
           ></Tiles>
         </div>
+        <div className="flex flex-wrap justify-evenly">
+          <Tiles
+            name="idle-farming-simulator"
+            description="🧑‍🌾 developed collaboratively in a team utilizing proper agile & scrum methodologies to efficiently complete 4-week sprints."
+            language="🔵 Python"
+            link=""
+          ></Tiles>
+          </div>
       </div>
     </div>
   );

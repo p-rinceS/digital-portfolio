@@ -13,7 +13,8 @@ const Bio = () => {
           <img
             class="flex-wrap w-32 h-32 object-cover rounded-full border-4 drop-shadow-lg border-bordercolor hover:border-borderhover
     transition-all duration-300 ease-in-out hover:scale-110"
-            src="https://cdn.discordapp.com/attachments/952328323768410143/1210742757723738172/Prince3.png?ex=65fe200f&is=65ebab0f&hm=fae3062f0589ce09be09c4e16ad525cfd4985f2038e28d32505eaf0ec6f8625d&"
+    // http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/ldgg2il2ywtcplrssudv used cloudinary to "host" images on a website
+            src="https://res.cloudinary.com/dyfkrpzfm/image/upload/v1711432119/Prince3_rhja7n.png"
           />
         </div>{" "}
         <p className="  max-w-3xl text-lg  text-white  overflow-hidden">
