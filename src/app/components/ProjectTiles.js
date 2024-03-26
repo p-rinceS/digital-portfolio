@@ -33,7 +33,7 @@ const ProjectTiles = () => {
         <div className="flex flex-wrap justify-evenly">
           <Tiles
             name="idle-farming-simulator"
-            description="🧑‍🌾 developed collaboratively in a team utilizing proper agile & scrum methodologies to efficiently complete 4-week sprints."
+            description="🧑‍🌾 2-d indie farming simulator game made using proper agile & scrum methodologies to efficiently complete 4-week sprints."
             language="🔵 Python"
             link=""
           ></Tiles>
