@@ -5,7 +5,7 @@ const Footer = () => {
        
           <div className = "min-w-max font-Lato text-3xl">Prince Sonani</div>
 
-          <div className = "" >Software Engineer • 2024</div>
+          <div className = "" >2024</div>
       
       </div>
     </div>

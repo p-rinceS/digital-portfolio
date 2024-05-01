@@ -2,20 +2,16 @@ import TechnologyBar from "./TechnologyBar";
 import SpotifyBar from "./Spotify";
 import ProjectTiles from "./ProjectTiles";
 import Contact from "./Contact";
+import Discord from "./Discord";
 
 const Bio = () => {
   return (
     <div className="flex flex-wrap justify-center px-5 w-full" id="hero">
       <div className="flex flex-col justify-center text-left">
-        <div class="flex items-center mt-14 gap-5">
-          <h1 className="text-6xl text-white">Hey I'm Prince 👋</h1>
+        <div class="relative flex-col">
+        <Discord />
 
-          <img
-            class="flex-wrap w-32 h-32 object-cover rounded-full border-4 drop-shadow-lg border-bordercolor hover:border-borderhover
-    transition-all duration-300 ease-in-out hover:scale-110"
-    // http://cloudinary.com/invites/lpov9zyyucivvxsnalc5/ldgg2il2ywtcplrssudv used cloudinary to "host" images on a website
-            src="https://res.cloudinary.com/dyfkrpzfm/image/upload/v1711432119/Prince3_rhja7n.png"
-          />
+          <h1 className="mb-10 text-6xl text-white">Hey I'm Prince 👋</h1>
         </div>{" "}
         <p className="  max-w-3xl text-lg  text-white  overflow-hidden">
           I'm a junior software engineer from Chicago. I'm currently pursuing

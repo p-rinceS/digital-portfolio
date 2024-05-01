@@ -25,7 +25,7 @@ const ProjectTiles = () => {
           ></Tiles>
           <Tiles
             name="word game"
-            description="🔤created using java and javafx (again), wordle-based game with java networking, client-server connection"
+            description="🔤created using javafx, wordle-based game with java networking, client-server connection"
             language="🟠 Java"
             link="https://github.com/p-rinceS/word-game"
           ></Tiles>
@@ -33,11 +33,11 @@ const ProjectTiles = () => {
         <div className="flex flex-wrap justify-evenly">
           <Tiles
             name="idle-farming-simulator"
-            description="🧑‍🌾 indie farming simulator game made using proper agile & scrum methodologies to efficiently complete 4-week sprints."
+            description="🧑‍🌾 farming simulator game made using proper agile & scrum methodologies to efficiently complete 4-week sprints."
             language="🔵 Python"
             link=""
           ></Tiles>
-          </div>
+        </div>
       </div>
     </div>
   );
